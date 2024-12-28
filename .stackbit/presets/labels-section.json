@@ -9,35 +9,35 @@
                 "items": [
                     {
                         "type": "Label",
-                        "label": "WEB 1, 2, 3"
+                        "label": "skill1"
                     },
                     {
                         "type": "Label",
-                        "label": "React"
+                        "label": "skill2"
                     },
                     {
                         "type": "Label",
-                        "label": "Microsoft Office"
+                        "label": " skill3"
                     },
                     {
                         "type": "Label",
-                        "label": "Next.js"
+                        "label": "etc"
                     },
                     {
                         "type": "Label",
-                        "label": "Netlify"
+                        "label": "etc"
                     },
                     {
                         "type": "Label",
-                        "label": "Pancakes"
+                        "label": "etc"
                     },
                     {
                         "type": "Label",
-                        "label": "C++"
+                        "label": "etc"
                     },
                     {
                         "type": "Label",
-                        "label": "Swift"
+                        "label": "etc"
                     }
                 ],
                 "styles": {

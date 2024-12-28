@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: The Great Unbundling
+title: Post 1
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
@@ -10,9 +10,8 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 75
 date: '2021-11-03'
-author: content/data/team/doris-soto.json
-excerpt: >-
-  More context that may or may not be helpful
+author: content/data/team/author.json
+excerpt: Introduction
 featuredImage:
   type: ImageBlock
   url: /images/featured-Image2.jpg
@@ -20,7 +19,7 @@ featuredImage:
 media:
   url: /images/post-4.png
   altText: altText of the image
-  caption: Caption of the image
+  caption: Caption
   elementId: ''
   type: ImageBlock
 bottomSections:
@@ -58,7 +57,7 @@ bottomSections:
     showReadMoreLink: true
   - type: ContactSection
     backgroundSize: full
-    title: 'Stay up-to-date with my words ✍️'
+    title: Stay up-to-date with my words ✍️
     colors: colors-f
     form:
       type: FormBlock

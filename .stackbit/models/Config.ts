@@ -25,7 +25,7 @@ export const ConfigModel: Model = {
             type: 'image',
             name: 'favicon',
             label: 'Favicon',
-            default: 'https://assets.stackbit.com/components/images/default/favicon.svg'
+            default: null
         },
         {
             type: 'model',

@@ -428,24 +428,6 @@
                                 "actions": [
                                     {
                                         "type": "Link",
-                                        "label": "GitHub",
-                                        "showIcon": false,
-                                        "url": "https://github.com/"
-                                    }
-                                ],
-                                "styles": {
-                                    "self": {
-                                        "textAlign": "left"
-                                    }
-                                }
-                            },
-                            {
-                                "type": "FeaturedItem",
-                                "title": "",
-                                "text": "",
-                                "actions": [
-                                    {
-                                        "type": "Link",
                                         "label": "Twitter",
                                         "showIcon": false,
                                         "url": "https://twitter.com/"
@@ -475,42 +457,7 @@
                                     }
                                 }
                             },
-                            {
-                                "type": "FeaturedItem",
-                                "title": "",
-                                "text": "",
-                                "actions": [
-                                    {
-                                        "type": "Link",
-                                        "label": "CodePen",
-                                        "showIcon": false,
-                                        "url": "https://codepen.io/"
-                                    }
-                                ],
-                                "styles": {
-                                    "self": {
-                                        "textAlign": "left"
-                                    }
-                                }
-                            },
-                            {
-                                "type": "FeaturedItem",
-                                "title": "",
-                                "text": "",
-                                "actions": [
-                                    {
-                                        "type": "Link",
-                                        "label": "Discord",
-                                        "showIcon": false,
-                                        "url": "https://discord.com/"
-                                    }
-                                ],
-                                "styles": {
-                                    "self": {
-                                        "textAlign": "left"
-                                    }
-                                }
-                            },
+
                             {
                                 "type": "FeaturedItem",
                                 "title": "",

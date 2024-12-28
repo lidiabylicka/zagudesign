@@ -1,10 +1,10 @@
 {
     "type": "Person",
-    "firstName": "Author Default",
+    "firstName": "Author",
     "lastName": "",
     "image": {
         "type": "ImageBlock",
         "url": "/images/about.jpg",
-        "altText": "Doris Soto photo"
+        "altText": "My photo"
     }
 }

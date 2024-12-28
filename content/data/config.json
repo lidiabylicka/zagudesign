@@ -31,13 +31,6 @@
                 "label": "Twitter",
                 "url": "https://twitter.com/netlify",
                 "icon": "twitter"
-            },
-            {
-                "type": "Social",
-                "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "icon": "github"
             }
         ],
         "styles": {
@@ -66,29 +59,23 @@
                 "label": "Blog",
                 "url": "/blog",
                 "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
             }
         ],
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "850-123-5021",
+            "phoneNumber": "",
             "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
+            "email": "",
             "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
-            "addressAltText": "My address"
+            "address": "London, UK",
+            "addressAltText": "Location"
         },
         "copyrightText": "Powered by [Netlify](https://www.netlify.com/platform/)",
         "styles": {
             "self": {
-                "width": "narrow",
-                "padding": ["pt-16", "pb-16", "pr-4", "pl-4"]
+                "width": "wide",
+                "padding": ["pt-5", "pb-5", "pr-4", "pl-4"]
             }
         }
     }

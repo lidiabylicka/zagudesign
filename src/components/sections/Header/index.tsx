@@ -1,6 +1,8 @@
+'use client';
+
 import * as React from 'react';
 import { useState, useEffect } from 'react';
-import { useRouter } from 'next/router';
+import { usePathname } from 'next/navigation';
 import classNames from 'classnames';
 
 import { Link, Action, Social } from '../../atoms';
@@ -120,18 +122,12 @@ function HeaderVariantC(props) {
 function MobileMenu(props) {
     const { primaryLinks = [], socialLinks = [], ...logoProps } = props;
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const router = useRouter();
+    const pathname = usePathname(); // Use to track the current path
 
     useEffect(() => {
-        const handleRouteChange = () => {
-            setIsMenuOpen(false);
-        };
-        router.events.on('routeChangeStart', handleRouteChange);
-
-        return () => {
-            router.events.off('routeChangeStart', handleRouteChange);
-        };
-    }, [router.events]);
+        // Close the menu on route change
+        setIsMenuOpen(false);
+    }, [pathname]); // Re-run effect when the pathname changes
 
     return (
         <div className="ml-auto lg:hidden">

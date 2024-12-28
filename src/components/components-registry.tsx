@@ -25,11 +25,15 @@ type DynamicComponentProps = ContentObject & {
 };
 
 export const DynamicComponent: React.FC<DynamicComponentProps> = (props) => {
-    const modelName = props.type;
-
+    //const modelName = props.type;
+    const modelName = props?.type || props?.__metadata?.modelName;
     // Resolve component by content type
+    // if (!modelName) {
+    //   throw new Error(`Object does not have a 'type' property: ${JSON.stringify(props, null, 2)}`);
+    //}
     if (!modelName) {
-        throw new Error(`Object does not have a 'type' property: ${JSON.stringify(props, null, 2)}`);
+        console.warn('Non-component data received:', props);
+        return null; // Skip rendering invalid data
     }
 
     let Component = components[modelName] as ComponentType;
