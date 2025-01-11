@@ -27,7 +27,13 @@ export async function generateMetadata({ params }) {
     };
 }
 
-export async function getData(params) {
+// export async function getData(params) {
+//     const urlPath = '/' + (params.slug || []).join('/');
+//     const allData = allContent();
+//     return resolveStaticProps(urlPath, allData);
+// }
+
+async function getData(params) {
     const urlPath = '/' + (params.slug || []).join('/');
     const allData = allContent();
     return resolveStaticProps(urlPath, allData);
