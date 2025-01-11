@@ -4,7 +4,7 @@ title: Blog
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg2.jpg
+  url: /images/3d-rendering-wood-logs.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat

@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: Zagu Design
-    subtitle: Blurb - all the work shown here is mine.
+    subtitle: Blurb SHORT DESCRIPTION.
     styles:
       self:
         height: auto
